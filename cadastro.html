@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portal3.css">
+    <title>Cadastro</title>
+</head>
+<body class="fundo">
+  <header id="cabecalho"> 
+    <h1><a id="titulo" href="index.php"> VSPLab </a></h1>     
+</header>
+<a id="logoIff"> <img id="logoIff" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Instituto_Federal_Fluminense_-_Marca_Vertical_2015.svg/1200px-Instituto_Federal_Fluminense_-_Marca_Vertical_2015.svg.png" alt=""></a> 
+    <br>
+    <div id="blocoEnviarArquivo">
+        <h1>Bem-vindo</h1>  
+      <form method="post" action="email.php" target="content">
+        <div class="arquivo">
+          <label id="nomeArtigo">Digite o seu nome</label>
+          <input class="nomeArtigo" type="text" placeholder="Nome" name="nome">
+        </div>
+        <br><br><br><br> 
+        <div class="arquivo">
+          <label id="descricao">Digite o seu email</label>
+          <input id="email" type="email" placeholder="Email" name="email">      
+        </div>  
+        <br><br><br><br>
+        <div class="arquivo">
+          <label id="senha">Digite uma senha</label>
+          <input id="senha3" type="password" placeholder="Senha" name="senha">
+        </div>
+        <br><br><br><br> 
+        <div class="arquivo">
+            <label id="senha2">Confirme sua senha</label>
+            <input id="senha4" type="password" placeholder="Senha" name="senhaConfirm">
+          </div>
+          <footer>
+            <button class="button" type="submit" name="submit" value="submit">Cadastre-se</button>
+      </form>  
+    </footer>
+    <iframe name="content" style="text-align:center; border:none"> </iframe>
+    </div>
+</body>
+<script src="portal1.js"></script>
+</html>

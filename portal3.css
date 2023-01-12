@@ -1,0 +1,109 @@
+#cabecalho{ 
+    width: 100%;  
+    height: 60px;
+    background: #5e9049;
+    padding-bottom: 30px;
+    display: block;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -8px;
+       
+}   
+
+#logoIff{   
+    height: 90px;
+    width: 90px;
+    margin-bottom: 530px;
+    margin-top: -5px;
+    display: inline-block;
+    position: absolute;
+
+}   
+
+#titulo{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    margin-left: 47%;
+}
+
+#blocoEnviarArquivo{
+    border: 10px groove rgba(100, 100, 100, 1);
+    display: inline-block;
+    width: 500px; 
+    margin-left: 35%;
+    height: 550px;
+    border-radius: 8px;
+    background-color: #c7c7c7;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .arquivo{
+    font-size: 20px;
+  }
+
+  #senha{
+    margin-right: 80px;
+  }
+
+  #senha2{
+    margin-right: 60px;
+  }
+
+  #senha3{
+    margin-left: -80px;
+    margin-right: 75px;
+    padding: 5px;
+  }
+
+  #senha4{
+    margin-left: -60px;
+    margin-right: 58px;
+    padding: 5px;
+  }
+
+  .nomeArtigo{
+    margin-right: 70px;
+    padding: 5px;
+  }
+
+  #descricao{
+    margin-right: 260px;
+  }
+
+  #email{
+    display: inline-block;
+    position: absolute; 
+    margin-left: -255px;
+    padding: 5px;
+  }
+
+.fundo{
+    background-color: white;
+}
+
+.button {
+    margin-top: 80px;
+    margin-left: -60px;
+    position: absolute;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } 
